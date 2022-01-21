@@ -1,0 +1,4 @@
+Multiple Inheritance is not possible in java because:
+
+1) Function collapsing
+2) compile time error as a consequence of 1st reason
