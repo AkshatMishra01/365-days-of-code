@@ -1,3 +1,4 @@
+// number of arguments
 package jj;
 
 class gyro{
@@ -8,8 +9,6 @@ class gyro{
 		return a+b+e;
 	}
 }
-
-// number of arguments
 public class overloading {
 
 	public static void main(String args[])
@@ -19,3 +18,23 @@ public class overloading {
 }
 
 
+
+// argument type based overloading 
+package jj;
+
+class gyro{
+	static int add(int a,int b) {
+		return a+b;
+	}
+	static double add(double a,double b){
+		return a+b;
+	}
+}
+public class overloading {
+
+	public static void main(String args[])
+	{
+		System.out.println(gyro.add(4, 2));
+		System.out.println(gyro.add(12.3, 11.6));
+	}
+}
