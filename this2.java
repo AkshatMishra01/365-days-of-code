@@ -1,3 +1,5 @@
+// A PROGRAM WITH THE USE OF (THIS) KEYWORD.
+
 package jj;
 
 class that{
@@ -6,9 +8,9 @@ class that{
 	float fee;
 	that(int rollno, String name, float fee)
 	{
-		rollno = rollno;
-		name = name;
-		fee = fee;
+		this.rollno = rollno;
+		this.name = name;
+		this.fee = fee;
 		
 	}
 	
