@@ -6,11 +6,11 @@ class that{
 	int rollno;
 	String name;
 	float fee;
-	that(int rollno, String name, float fee)
+	that(int roll, String str, float flo)
 	{
-		this.rollno = rollno;
-		this.name = name;
-		this.fee = fee;
+		rollno = roll;
+		name = str;
+		fee = flo;
 		
 	}
 	
